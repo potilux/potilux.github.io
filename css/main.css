@@ -88,12 +88,10 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
-#carousel-logo {
-    width: 80%;
-    margin-bottom: 50px;
+.marketing .col-lg-6 {
+    margin-bottom: 20px;
+    text-align: center;
 }
-
-
 
 
 
