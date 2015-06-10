@@ -1,0 +1,96 @@
+body {
+	background: #FFCD00;
+}
+
+body .row h2 {
+	color: white;
+}
+
+p {
+	color: white;
+}
+
+/* Nav Menu Topo */
+
+#menu-topo {
+	background: #323133;
+}
+
+#menu-topo a {
+	color: white;
+}
+
+#menu-topo a:hover {
+	background: white;
+	color: #323133;
+}
+
+#menu-topo .navbar-brand:hover {
+	background: 323133;
+	color: white;
+}
+
+#menu-topo .active a {
+	color: #323133;
+	background: white;
+}
+
+#menu-topo #fb-menu-link:hover {
+	color: #323133;
+}
+
+
+#elemento-topo {
+	background: #323133;
+}
+
+#elemento-topo h1 {
+	color: #FFCD00;
+}
+
+#logo-topo {
+	border: 2px solid white;
+	border-radius: 5px;
+}
+
+
+/* Fim Nav Menu Topo */
+
+#elemento-geral {
+	background: #323133;
+	border-radius: 15px;
+}
+
+#elemento-geral h2 {
+	color: #FFCD00;
+}
+
+/* Conheça nossos produtos */
+
+
+
+/* Fim Conheça nossos produtos */
+
+/* Sobre nós */
+
+#sobre-nos-p {
+	font-size: 20px;
+	margin: 30px 200px;
+	text-align: justify;
+}
+
+/* Fim Sobre nós */
+
+.featurette-divider {
+	background: black;
+	border: 1px solid black;
+}
+
+#elemento-geral .featurette-divider {
+	background: #FFCD00;
+	border: 1px solid #FFCD00;
+}
+
+.featurette-image {
+	border: 2px solid #FFCD00;
+}
