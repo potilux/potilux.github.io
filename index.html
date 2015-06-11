@@ -46,6 +46,7 @@
                         <li><a href="#contact">Contato</a></li>
                         <li><a id="fb-menu-link" href="https://www.facebook.com/potiluxx" target="_blank"><i class="fa fa-facebook-square fa-2x fa-lg fa-spin"></i></a></li>
                     </ul>
+                    <!--
                         <form class="navbar-form navbar-right" role="search">
                             <div class="form-group">
                                 <div class="input-group margin-bottom-sm">
@@ -53,9 +54,10 @@
                                     <input type="text" class="form-control" placeholder="Digite seu e-mail">
                                 </div>
                             </div>
-                            <button type="submit" class="btn btn-danger">Quero os produtos com desconto!</button>
+                            <button id="sendEmailButton">Quero os produtos com desconto!</button>
                         </form>
                     </ul>
+                    -->
                 </div><!--/.nav-collapse -->
             </div>
         </nav>
@@ -67,6 +69,17 @@
                     <div class="col-lg-6">
                         <h1>Potilux</h1>
                         <p>Nós fazemos produtos que facilitam sua vida.</p>
+                        <!--<span id="sendEmail">Clique aqui</span>-->
+                        <br>
+                        <form>
+                            <div class="form-group">
+                                <div class="input-group margin-bottom-sm">
+                                    <span class="input-group-addon"><i class="fa fa-envelope-o fa-fw"></i></span>
+                                    <input type="text" class="form-control" placeholder="Digite seu e-mail">
+                                </div>
+                            </div>
+                            <button class="btn btn-danger center-block" id="sendEmailButton">Quero os produtos com desconto!</button>
+                        </form>
                     </div>
                     <div class="col-lg-6">
                         <img id="logo-topo" src="img/logo500x300.png" width="100%">
@@ -84,13 +97,13 @@
                     <img class="img-circle" src="img/fonebox.jpg" alt="fonebox image" width="200" height="200">
                     <h2>FoneBox</h2>
                     <p>Seus fones de ouvido já ficaram embolados no bolso?</p>
-                    <!--<p><a class="btn btn-default" href="#" role="button">Sim!</a></p>-->
+                    <p><a class="btn btn-default btn-comprar" href="#" role="button">Comprar</a></p>
                 </div><!-- /.col-lg-4 -->
                 <div class="col-lg-6">
                     <img class="img-circle" src="http://placehold.it/200x200" alt="lampitec image" width="200" height="200">
                     <h2>Lampitec</h2>
                     <p>Alguma vez você já ficou sem luz para digitar?</p>
-                    <!--<p><a class="btn btn-default" href="#" role="button">Sim!</a></p>-->
+                    <p><a class="btn btn-default btn-comprar" href="#" role="button">Comprar</a></p>
                 </div><!-- /.col-lg-4 -->
             </div><!-- /.row -->
             <hr id="produtos-info" class="featurette-divider">
@@ -185,12 +198,21 @@
             </a>
         </div><!-- /.carousel -->
 
+        <hr class="featurette-divider">
+
+        <div id="elemento-geral" class="container marketing">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h2 style="text-align:center">Contato</h2>
+                </div>
+            </div>
+        </div>
+
         <!-- Bootstrap core JavaScript
         ================================================== -->
             <!-- Placed at the end of the document so the pages load faster -->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
         <script src="js/bootstrap.min.js"></script>
-        <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-        <script src="js/ie10-viewport-bug-workaround.js"></script>       
+        <script src="js/main.js"></script>       
     </body>
 </html>

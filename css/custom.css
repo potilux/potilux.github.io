@@ -93,3 +93,8 @@ p {
 .featurette-image {
 	border: 2px solid #FFCD00;
 }
+
+.btn-comprar {
+	background-color: #FFCD00;
+	border-color: black;
+}
