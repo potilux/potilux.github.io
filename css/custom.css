@@ -1,5 +1,5 @@
 body {
-	background: #FFCD00;
+	background: white;
 }
 
 body .row h2 {
@@ -14,6 +14,7 @@ p {
 
 #menu-topo {
 	background: #323133;
+	margin-bottom: 0px;
 }
 
 #menu-topo a {
@@ -22,7 +23,7 @@ p {
 
 #menu-topo a:hover {
 	background: white;
-	color: #323133;
+	color: #323133
 }
 
 #menu-topo .navbar-brand:hover {
@@ -41,33 +42,49 @@ p {
 
 
 #elemento-topo {
-	background: #323133;
+	background: none;
+	height: 80%;
 }
 
 #elemento-topo h1 {
-	color: #FFCD00;
+	color: white;
+}
+
+#elemento-topo .row p {
+	color: white;
+}
+
+#foto-geral {
+	border: 3px solid black;
+	background-image: url("produtos1.jpg");
+	background-size: 100%;
+	background-repeat: no-repeat;
+	width: 100%;
+	margin-top: 0px;
 }
 
 #logo-topo {
-	border: 2px solid white;
+	border: 2px solid black;
 	border-radius: 5px;
 }
 
 
 /* Fim Nav Menu Topo */
 
+/* Conheça nossos produtos */
+
 #elemento-geral {
-	background: #323133;
+	background: white;
 	border-radius: 15px;
 }
 
 #elemento-geral h2 {
-	color: #FFCD00;
+	color: black;
 }
 
-/* Conheça nossos produtos */
-
-
+#elemento-geral p {
+	color: black;
+}
 
 /* Fim Conheça nossos produtos */
 
@@ -86,12 +103,12 @@ p {
 }
 
 #elemento-geral .featurette-divider {
-	background: #FFCD00;
-	border: 1px solid #FFCD00;
+	background: black;
+	border: 1px solid black;
 }
 
 .featurette-image {
-	border: 2px solid #FFCD00;
+	border: 2px solid black;
 }
 
 .btn-comprar {
