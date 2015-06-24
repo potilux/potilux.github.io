@@ -54,6 +54,14 @@ p {
 	color: white;
 }
 
+#elemento-topo a {
+	text-decoration: none;
+}
+
+#elemento-topo button {
+	font-size: 24px;
+}
+
 #foto-geral {
 	border: 3px solid black;
 	background-image: url("produtos1.jpg");
@@ -95,12 +103,25 @@ p {
 
 /* Sobre nós */
 
+#elemento-sobrenos h2, #elemento-sobrenos p {
+	color: black;
+}
+
 #sobre-nos-p {
 	font-size: 20px;
 	text-align: justify;
 }
 
 /* Fim Sobre nós */
+
+/* Contato */
+
+#elemento-contato h2 {
+	color: black;
+}
+
+
+/* Fim Contato */
 
 .featurette-divider {
 	background: black;
